@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class Example {
     @RequestMapping("/")
     String home(){
-        return"Hello git -V0.8 ---merge 合并分支 111111";
+        return"Hello git -V0.8 ---merge 合并分支 111111 github中修改";
     }
 
     public static void main(String[] args) {
