@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class Example {
     @RequestMapping("/")
     String home(){
-        return"Hello git";
+        return"Hello git -V0.1";
     }
 
     public static void main(String[] args) {
